@@ -1,0 +1,177 @@
+body {
+  font-family: circular;
+  background-color: #093545;
+  /* display: flex;
+  height: 100vh; */
+}
+
+body .light-theme-color{
+  font-family: circular;
+  background-color: #e5e5e5;
+  /* display: flex;
+  height: 100vh; */
+}
+
+.login-container { 
+  width: 347px;
+  height: 406px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.light-theme-color{
+  font-family: circular;
+  background-color: #e5e5e5;
+  display: flex;
+  height: 100vh;
+}
+.login-container h1 {
+  margin: 40px 0px;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  font-weight: lighter;
+
+}
+
+.light-theme-color h1 {
+  margin: 40px 0px;
+  text-align: center;
+  font-size: 60px;
+  color: #093545;
+  font-weight: lighter;
+
+}
+.login-container p {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.light-theme-color p {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #093545;
+  font-size: 14px;
+}
+.sub-head {
+  font-family: 'circular';
+  letter-spacing: 1px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+  justify-content: center;
+  font-weight: lighter;
+}
+
+.form-group label {
+  display: block;
+  font-size: small;
+  color: #fff;
+}
+
+.light-theme-color label {
+  display: block;
+  font-size: small;
+  color: #093545;
+}
+
+.form-group input::placeholder {
+  color: white;
+  font-family: circular;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+
+
+.form-group input {
+  background-color: #fffdfd4d;
+  border: none;
+  width: 250px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.light-theme-color input {
+  background-color: #093545;
+  border: none;
+  width: 250px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.form-group .row {
+  display: flex;
+  font-size: smaller;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.form-group .checkbox {
+  display: flex;
+  align-items: center;
+  background-color: #fffdfd4d;;
+}
+
+.form-group .col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col p {
+  font-size: 12px;
+  font-family: circular;
+  margin: 0px;
+}
+.light-theme-color .col p {
+  font-size: 12px;
+  font-family: circular;
+  margin: 0px;
+  color: #000;
+  font-weight: bold;
+}
+
+.form-group a {
+  font-size: 11px;
+  text-align: right;
+  color: #20df7f;
+  text-decoration: none;
+  cursor: pointer;
+}
+.light-theme-color a {
+  font-size: 12px;
+  text-align: right;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-group button {
+  width: 285px;
+  font-family: circular;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #20df7f;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #12834b;
+}
+.themechange button {
+  font-family: circular;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #20df7f;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
